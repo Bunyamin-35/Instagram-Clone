@@ -1,0 +1,225 @@
+/**************************Story Start *****************************/
+
+
+.story-container {
+    /* overflow-x: auto;
+    overscroll-behavior: contain; */
+    border: 1px solid rgb(230, 230, 230);
+    border-radius: 8px;
+    background-color: white;
+    padding: 2rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns:5rem ;
+    grid-gap: 2rem;
+    margin-bottom: 5px;
+}
+
+
+.story-container .content {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 0;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease-in ;
+}
+.story-container .content:hover {
+    transform: scale(1.1);
+}
+.story-container .content .image-container {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: radial-gradient(rgba(0, 0, 0, 0.1) 60% ,transparent 0),
+    radial-gradient(white 65% ,transparent 0),
+    linear-gradient(to top right, rgb(211, 209, 205),rgb(137, 152, 185));
+
+}
+.story-container .content .image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    clip-path: circle(42%);
+}
+
+.story-container .content .user-name {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+}
+
+/**************************Story End *****************************/
+
+/**************************Post Area Start *****************************/
+
+.post_area {
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: white;
+    margin-bottom: 5px;
+}
+.writing .icons div button {
+    border: none;
+    outline: none;
+    background: transparent;
+    user-select: none;
+    transition: all 0.2s ease-in ;    
+}
+.writing .icons div button:hover {
+    transform: scale(1.1);
+}
+.post_area .header div button {
+    border: none;
+    outline: none;
+    background: transparent;
+    user-select: none;
+    transition: all 0.2s ease-in ;
+    
+}
+.post_area .header div button:hover {
+    transform: scale(1.1);
+}
+.statement div a {
+    text-decoration: none;
+    color: black;
+    
+}
+.statement div span {
+    font-size: 14px;
+}
+
+.statement .comment button {
+    padding-left: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(139, 133, 133);
+    font-size: 12px;
+
+}
+
+.time button {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: rgb(139, 133, 133);
+    font-size: 12px;
+    padding-left: 0;
+}
+
+
+.comment_line .smile button{
+    border: none;
+    outline: none;
+    background: transparent;
+    user-select: none;
+    transition: all 0.2s ease-in ; 
+    margin-left: 2px;
+}
+
+.comment_line .smile button:hover {
+    transform: scale(1.1);
+}
+.comment_line .text_line input {
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    width: 300px;
+}
+.comment_line .share button {
+    color: rgb(0, 110, 255);
+    border: none;
+    outline: none;
+    background: transparent;
+    user-select: none;
+    transition: all 0.2s ease-in ;
+    opacity: 0.5;
+    margin-right: 5px;
+}   
+.comment_line .share button:hover {
+    transform: scale(1.1);
+    
+}
+/****************Side Bar Design-Start ********************/
+
+.side-bar {
+    border-radius: 8px;
+    border: 1px solid rgb(230, 230, 230);
+    background-color: white;
+    padding: 2rem;
+}
+.side-bar .sbr_f-content {
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.2s ease-in;
+}
+.side-bar .sbr_f-content:hover {
+    transform: scale(1.1);
+}
+.side-bar .sbr_f-content .img-container {
+    display: inline-block;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background: radial-gradient(rgba(0, 0, 0, 0.1) 60% ,transparent 0),
+    radial-gradient(white 65% ,transparent 0),
+    linear-gradient(to top right, rgb(211, 209, 205),rgb(137, 152, 185));
+}
+.side-bar .sbr_f-content .img-container img {
+    display: block;
+    width: 100%;
+    height: 100%;   
+    object-fit: cover;
+    clip-path: circle(42%);
+}
+
+.side-bar .wrtng {
+    font-size: 12px;
+    color: rgb(139, 133, 133);
+}
+.recmnd {
+    font-size: 12px;
+}
+.recmnd div button {
+    border: none;
+    background: transparent;
+   
+}
+.recmnd div button a{
+    text-decoration: none;
+}
+.links {
+    font-size: 12px;
+}
+
+.sbr_last {
+    color: rgb(139, 133, 133);
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/****************Side Bar Design-End ********************/
+
